@@ -370,3 +370,4 @@ if __name__ == "__main__":
         raise SystemExit(
             "Database initialization failed. Check the database directory permissions and available disk space."
         ) from None
+app=create_app()
